@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.js": "/my-evalart-app/static/js/main.4b311de9.js",
+    "main.js": "/my-evalart-app/static/js/main.8118a020.js",
     "static/js/453.54660472.chunk.js": "/my-evalart-app/static/js/453.54660472.chunk.js",
-    "static/media/logo.svg": "/my-evalart-app/static/media/logo.034ef726eb08f413c8e9ff1b0abe7414.svg",
     "index.html": "/my-evalart-app/index.html",
-    "main.4b311de9.js.map": "/my-evalart-app/static/js/main.4b311de9.js.map",
+    "main.8118a020.js.map": "/my-evalart-app/static/js/main.8118a020.js.map",
     "453.54660472.chunk.js.map": "/my-evalart-app/static/js/453.54660472.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4b311de9.js"
+    "static/js/main.8118a020.js"
   ]
 }
