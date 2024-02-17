@@ -1,12 +1,19 @@
 {
   "files": {
-    "main.js": "/my-evalart-app/static/js/main.8118a020.js",
+    "main.css": "/my-evalart-app/static/css/main.c34fc604.css",
+    "main.js": "/my-evalart-app/static/js/main.e794e6fd.js",
     "static/js/453.54660472.chunk.js": "/my-evalart-app/static/js/453.54660472.chunk.js",
+    "static/media/slick.svg": "/my-evalart-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/my-evalart-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/my-evalart-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/my-evalart-app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-evalart-app/index.html",
-    "main.8118a020.js.map": "/my-evalart-app/static/js/main.8118a020.js.map",
+    "main.c34fc604.css.map": "/my-evalart-app/static/css/main.c34fc604.css.map",
+    "main.e794e6fd.js.map": "/my-evalart-app/static/js/main.e794e6fd.js.map",
     "453.54660472.chunk.js.map": "/my-evalart-app/static/js/453.54660472.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8118a020.js"
+    "static/css/main.c34fc604.css",
+    "static/js/main.e794e6fd.js"
   ]
 }
