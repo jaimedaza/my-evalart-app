@@ -1,18 +1,11 @@
 import { useEffect, useState } from 'react';
-import {
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  Box,
-  Container,
-  Heading,
-} from '@chakra-ui/react';
+import { Box, Container, Heading } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import { benefits, features } from '../utils/mockData';
 import { Accordion } from './Accordion';
+import Carousel from './Carousel';
+import { FeatureCard } from './FeatureCard';
 
 export const FeaturesPage = () => {
   const [featureData, setfeatureData] = useState(features);
@@ -55,6 +48,21 @@ export const FeaturesPage = () => {
         </Box>
       </Container>
 
+      <Box w="100%" bg="#01478f" marginY="30px" py="20px">
+        <Container maxW="container.xl" bg="">
+          <Carousel>
+            {featureData.map(feature => (
+              <FeatureCard
+                key={feature.title}
+                title={feature.title}
+                description={feature.description}
+                imageUrl={feature.imageUrl}
+              />
+            ))}
+          </Carousel>
+        </Container>
+      </Box>
+
       <Container maxW="container.xl" marginY="30px">
         <Heading as="h2" size="xl" paddingBottom="12px" textAlign="left">
           Benefits
@@ -69,25 +77,6 @@ export const FeaturesPage = () => {
           </Heading>
         </Container>
       </Box>
-
-      {/* <Grid minH="100vh" p={3}>
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-          </Text>
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Chakra con Jaime
-          </Link>
-        </VStack>
-      </Grid> */}
     </>
   );
 };
